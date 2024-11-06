@@ -1,0 +1,97 @@
+[
+  {
+    "event": "project.deleted",
+    "data": "project with id 6 is deleted"
+  },
+  {
+    "event": "project.created",
+    "data": {
+      "name": "test",
+      "details": "test",
+      "startDate": "2024-02-21",
+      "endDate": "2024-02-21",
+      "projectManagerId": 8,
+      "createdAt": "2024-11-06T02:41:33.477Z",
+      "updatedAt": "2024-11-06T02:41:33.477Z",
+      "id": 12
+    }
+  },
+  {
+    "event": "project.created",
+    "data": {
+      "name": "test",
+      "details": "test",
+      "startDate": "2024-02-21",
+      "endDate": "2024-11-07",
+      "projectManagerId": null,
+      "createdAt": "2024-11-06T06:50:12.518Z",
+      "updatedAt": "2024-11-06T06:50:12.518Z",
+      "id": 13,
+      "completed": false
+    }
+  },
+  {
+    "event": "project.created",
+    "data": {
+      "name": "pro mage",
+      "details": "this is an event driven project",
+      "startDate": "2024-02-21",
+      "endDate": "2024-11-21",
+      "projectManagerId": null,
+      "createdAt": "2024-11-06T11:20:04.058Z",
+      "updatedAt": "2024-11-06T11:20:04.058Z",
+      "id": 14,
+      "completed": false
+    }
+  },
+  {
+    "event": "project.updated",
+    "data": "project with id 14 is updated"
+  },
+  {
+    "event": "project.updated",
+    "data": "project with id 14 is updated"
+  },
+  {
+    "event": "project.projectManagerAssigned",
+    "data": "project manager with id 9 assigned to project with id 14 "
+  },
+  {
+    "event": "project.deleted",
+    "data": "project with id 14 is deleted"
+  },
+  {
+    "event": "task.created",
+    "data": {
+      "description": "do something",
+      "status": "not started",
+      "startDate": "2024-02-21",
+      "endDate": "2024-02-21",
+      "projectId": 12,
+      "createdAt": "2024-11-06T11:23:26.695Z",
+      "updatedAt": "2024-11-06T11:23:26.695Z",
+      "id": 2
+    }
+  },
+  {
+    "event": "task.completed",
+    "data": "status of task with id 2 is changed to completed"
+  },
+  {
+    "event": "task.created",
+    "data": {
+      "description": "do something",
+      "status": "not started",
+      "startDate": "2024-02-21",
+      "endDate": "2024-02-21",
+      "projectId": 12,
+      "createdAt": "2024-11-06T11:24:54.975Z",
+      "updatedAt": "2024-11-06T11:24:54.975Z",
+      "id": 3
+    }
+  },
+  {
+    "event": "task.rejected",
+    "data": "status of task with id 3 is changed to rejected"
+  }
+]
